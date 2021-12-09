@@ -30,4 +30,6 @@ footer{
 div {
     text-align: center;
     padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
