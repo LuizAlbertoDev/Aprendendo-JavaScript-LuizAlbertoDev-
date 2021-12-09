@@ -9,15 +9,15 @@ function carregar () {
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if ( hora >= 0 && hora < 12) {
-        img.src = "../JS-01/imagens/manha.jpg"
+        img.src = "imagens/manha.jpg"
         document.body.style.background = "#ad8e75"
     }
     else if (hora >= 12 && hora < 18) {
-        img.src = "../JS-01/imagens/tarde.jpg"
+        img.src = "imagens/tarde.jpg"
         document.body.style.background = "#6e93b1"
     }
     else {
-        img.src = "../JS-01/imagens/noite.jpg"
+        img.src = "imagens/noite.jpg"
         document.body.style.background = "#42324d"
     }
 }
